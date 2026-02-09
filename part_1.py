@@ -13,3 +13,14 @@ for i in range(3):
     user_input = input("Enter a rock type to add to the findings:")
     new_findings.append(user_input)
     print("Find added successfully. current_findings: ", new_findings)
+    
+if "Dust" in sample_bay:
+
+        print("Dust sample found in the bay!")
+
+        sample_bay.remove("Dust")
+
+        print("Dust sample removed from the list. current_samples: ", sample_bay)
+
+else: print("No dust sample found in the bay.")
+  
